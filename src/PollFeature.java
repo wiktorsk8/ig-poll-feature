@@ -3,11 +3,11 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 
-public class OptionPool {
+public class PollFeature {
 
     private ArrayList<Option> questions;
     private Integer[] votes;
-    public OptionPool(ArrayList<Option> questionList){
+    public PollFeature(ArrayList<Option> questionList){
         InitializeCollections(questionList);
 
         this.questions.addAll(questionList);
